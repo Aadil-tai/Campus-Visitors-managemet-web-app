@@ -1,0 +1,92 @@
+/* Center the form vertically */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form container */
+.container-fluid {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+/* Style the form header */
+.form-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.form-header p {
+  font-size: 1.2rem;
+}
+
+/* Style the social media buttons */
+.btn-floating {
+  background-color: #3b5998;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+/* Style the form inputs and labels */
+.form-outline {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.form-outline input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+
+.form-outline input:focus {
+  border-color: #3b5998;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-outline label {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-outline input:focus + label,
+.form-outline input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 0.8rem;
+  color: #3b5998;
+}
+
+/* Style the submit button */
+.btn-primary {
+  background-color: #3b5998;
+  border: none;
+  border-radius: 30px;
+  box-shadow: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #2d4278;
+}
